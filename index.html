@@ -23,28 +23,74 @@
 
         <!-- HOME -->
         <section class="home" id="home">
+            <!-- Animated background particles -->
+            <div class="home-bg-particles">
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+            </div>
+
             <div class="home-detailes">
-                <h1>Hello I'm</h1>
-                <h2>Omprakash Thoparam</h2>
-                <h3>I'm a Python Full Stack Developer</h3>
-                <p>I create beautiful, responsive web applications with modern technologies. Passionate about clean code, user experience, and bringing ideas to life.</p>
+                <div class="home-greeting">
+                    <span class="greeting-line"></span>
+                    <h1>Hello, I'm</h1>
+                </div>
+                <h2 class="home-name">Omprakash<br><span>Thoparam</span></h2>
+                <div class="home-role-wrapper">
+                    <h3 class="home-role">
+                        <span class="role-prefix">I'm a </span>
+                        <span class="role-text" id="typewriter"></span>
+                        <span class="cursor-blink">|</span>
+                    </h3>
+                </div>
+                <p>I craft beautiful, responsive web applications with modern technologies. Passionate about clean code, seamless user experiences, and turning ideas into reality.</p>
+
                 <div class="download-socials">
-                    <a href="#" class="btn">Download CV</a>
-                    <div class="soical-icons">
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
-                    </div>
+                    <a href="#" class="btn btn-primary">
+                        <i class="fa-solid fa-download"></i> Download CV
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fa-solid fa-paper-plane"></i> Hire Me
+                    </a>
+                </div>
+
+                <div class="soical-icons">
+                    <a href="https://www.linkedin.com/in/omprakash-thoparam" target="_blank" rel="noopener" class="social-btn social-linkedin" aria-label="LinkedIn">
+                        <span class="social-icon-inner"><i class="fa-brands fa-linkedin-in"></i></span>
+                        <span class="social-tooltip">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/omprakash-thoparam" target="_blank" rel="noopener" class="social-btn social-github" aria-label="GitHub">
+                        <span class="social-icon-inner"><i class="fa-brands fa-github"></i></span>
+                        <span class="social-tooltip">GitHub</span>
+                    </a>
+                    <a href="https://www.instagram.com/omprakash_thoparam" target="_blank" rel="noopener" class="social-btn social-instagram" aria-label="Instagram">
+                        <span class="social-icon-inner"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="social-tooltip">Instagram</span>
+                    </a>
+                    <a href="https://www.facebook.com/omprakash.thoparam" target="_blank" rel="noopener" class="social-btn social-facebook" aria-label="Facebook">
+                        <span class="social-icon-inner"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="social-tooltip">Facebook</span>
+                    </a>
                 </div>
             </div>
+
             <div class="home-img">
+                <div class="img-orbit">
+                    <div class="orbit-ring ring-1"></div>
+                    <div class="orbit-ring ring-2"></div>
+                    <div class="orbit-dot dot-1"></div>
+                    <div class="orbit-dot dot-2"></div>
+                    <div class="orbit-dot dot-3"></div>
+                </div>
                 <div class="img-box">
                     <img src="om.jpeg" alt="Omprakash Thoparam">
+                    <div class="img-glow"></div>
                 </div>
+                <!-- Floating skill badges -->
+                <div class="float-badge fb-python"><i class="fa-brands fa-python"></i> Python</div>
+                <div class="float-badge fb-django"><i class="fa-solid fa-server"></i> Django</div>
+                <div class="float-badge fb-js"><i class="fa-brands fa-js"></i> JavaScript</div>
             </div>
         </section>
-
         <!-- ABOUT -->
         <section class="about" id="about">
             <h2 class="section-title">About Me</h2>
@@ -66,6 +112,8 @@
                         <span class="badge-label">Projects<br>Completed</span>
                     </div>
                 </div>
+
+                <script src="main.js"></script>
 
                 <!-- Right: Text + stats -->
                 <div class="about-content">
@@ -357,10 +405,22 @@
                         </div>
                     </div>
                     <div class="contact-socials">
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/omprakash-thoparam" target="_blank" rel="noopener" class="social-btn social-linkedin" aria-label="LinkedIn">
+                            <span class="social-icon-inner"><i class="fa-brands fa-linkedin-in"></i></span>
+                            <span class="social-tooltip">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/omprakash-thoparam" target="_blank" rel="noopener" class="social-btn social-github" aria-label="GitHub">
+                            <span class="social-icon-inner"><i class="fa-brands fa-github"></i></span>
+                            <span class="social-tooltip">GitHub</span>
+                        </a>
+                        <a href="https://www.instagram.com/omprakash_thoparam" target="_blank" rel="noopener" class="social-btn social-instagram" aria-label="Instagram">
+                            <span class="social-icon-inner"><i class="fa-brands fa-instagram"></i></span>
+                            <span class="social-tooltip">Instagram</span>
+                        </a>
+                        <a href="https://www.facebook.com/omprakash.thoparam" target="_blank" rel="noopener" class="social-btn social-facebook" aria-label="Facebook">
+                            <span class="social-icon-inner"><i class="fa-brands fa-facebook-f"></i></span>
+                            <span class="social-tooltip">Facebook</span>
+                        </a>
                     </div>
                 </div>
 
@@ -381,13 +441,32 @@
                 </form>
             </div>
         </section>
+        
 
         <footer class="footer">
             <p>© 2026 Omprakash Thoparam. All rights reserved.</p>
         </footer>
     </div>
+    
 
     <script>
+        // Typewriter effect
+        const roles = ['Python Full Stack Developer', 'Django Expert', 'UI/UX Enthusiast', 'Problem Solver'];
+        let roleIdx = 0, charIdx = 0, deleting = false;
+        const tw = document.getElementById('typewriter');
+        function typeWrite() {
+            const current = roles[roleIdx];
+            if (deleting) {
+                tw.textContent = current.substring(0, charIdx--);
+                if (charIdx < 0) { deleting = false; roleIdx = (roleIdx + 1) % roles.length; setTimeout(typeWrite, 400); return; }
+            } else {
+                tw.textContent = current.substring(0, charIdx++);
+                if (charIdx > current.length) { deleting = true; setTimeout(typeWrite, 1800); return; }
+            }
+            setTimeout(typeWrite, deleting ? 50 : 90);
+        }
+        typeWrite();
+
         // Active nav on scroll
         const sections = document.querySelectorAll('section[id]');
         const navLinks = document.querySelectorAll('.navbar a');
@@ -425,18 +504,5 @@
             });
         });
     </script>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/69e789e4d45a3c1c33e99e16/1jmo759q0';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 </body>
 </html>
