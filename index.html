@@ -1,508 +1,532 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AVB Life Science Academy | Bridging the Gap Between Industry & Institute</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <div class="container">
-        <header>
-            <a href="#home" class="logo">Portfolio</a>
-            <nav class="navbar">
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#education">Education</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
 
-        <!-- HOME -->
-        <section class="home" id="home">
-            <!-- Animated background particles -->
-            <div class="home-bg-particles">
-                <span></span><span></span><span></span>
-                <span></span><span></span><span></span>
-            </div>
-
-            <div class="home-detailes">
-                <div class="home-greeting">
-                    <span class="greeting-line"></span>
-                    <h1>Hello, I'm</h1>
-                </div>
-                <h2 class="home-name">Omprakash<br><span>Thoparam</span></h2>
-                <div class="home-role-wrapper">
-                    <h3 class="home-role">
-                        <span class="role-prefix">I'm a </span>
-                        <span class="role-text" id="typewriter"></span>
-                        <span class="cursor-blink">|</span>
-                    </h3>
-                </div>
-                <p>I craft beautiful, responsive web applications with modern technologies. Passionate about clean code, seamless user experiences, and turning ideas into reality.</p>
-
-                <div class="download-socials">
-                    <a href="om cv.pdf" class="btn btn-primary">
-                        <i class="fa-solid fa-download"></i> Download CV
-                    </a>
-                    <a href="#contact" class="btn btn-outline">
-                        <i class="fa-solid fa-paper-plane"></i> Hire Me
-                    </a>
-                </div>
-
-                <div class="soical-icons">
-                    <a href="https://www.linkedin.com/in/omprakash-thoparam" target="_blank" rel="noopener" class="social-btn social-linkedin" aria-label="LinkedIn">
-                        <span class="social-icon-inner"><i class="fa-brands fa-linkedin-in"></i></span>
-                        <span class="social-tooltip">LinkedIn</span>
-                    </a>
-                    <a href="https://github.com/omprakash-thoparam" target="_blank" rel="noopener" class="social-btn social-github" aria-label="GitHub">
-                        <span class="social-icon-inner"><i class="fa-brands fa-github"></i></span>
-                        <span class="social-tooltip">GitHub</span>
-                    </a>
-                    <a href="https://www.instagram.com/omprakash_thoparam" target="_blank" rel="noopener" class="social-btn social-instagram" aria-label="Instagram">
-                        <span class="social-icon-inner"><i class="fa-brands fa-instagram"></i></span>
-                        <span class="social-tooltip">Instagram</span>
-                    </a>
-                    <a href="https://www.facebook.com/omprakash.thoparam" target="_blank" rel="noopener" class="social-btn social-facebook" aria-label="Facebook">
-                        <span class="social-icon-inner"><i class="fa-brands fa-facebook-f"></i></span>
-                        <span class="social-tooltip">Facebook</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="home-img">
-                <div class="img-orbit">
-                    <div class="orbit-ring ring-1"></div>
-                    <div class="orbit-ring ring-2"></div>
-                    <div class="orbit-dot dot-1"></div>
-                    <div class="orbit-dot dot-2"></div>
-                    <div class="orbit-dot dot-3"></div>
-                </div>
-                <div class="img-box">
-                    <img src="om.jpeg" alt="Omprakash Thoparam">
-                    <div class="img-glow"></div>
-                </div>
-                <!-- Floating skill badges -->
-                <div class="float-badge fb-python"><i class="fa-brands fa-python"></i> Python</div>
-                <div class="float-badge fb-django"><i class="fa-solid fa-server"></i> Django</div>
-                <div class="float-badge fb-js"><i class="fa-brands fa-js"></i> JavaScript</div>
-            </div>
-        </section>
-        <!-- ABOUT -->
-        <section class="about" id="about">
-            <h2 class="section-title">About Me</h2>
-            <p class="section-sub">Who I am &amp; what drives me</p>
-
-            <div class="about-wrapper">
-                <!-- Left: Photo + floating badges -->
-                <div class="about-img-side">
-                    <div class="about-img-frame">
-                        <img src="om.jpeg" alt="Omprakash Thoparam" />
-                        <div class="about-ring"></div>
-                    </div>
-                    <div class="about-badge badge-exp">
-                        <span class="badge-num">8+</span>
-                        <span class="badge-label">Years<br>Experience</span>
-                    </div>
-                    <div class="about-badge badge-proj">
-                        <span class="badge-num">10+</span>
-                        <span class="badge-label">Projects<br>Completed</span>
-                    </div>
-                </div>
-
-                <script src="main.js"></script>
-
-                <!-- Right: Text + stats -->
-                <div class="about-content">
-                    <h3 class="about-heading">A passionate developer from <span class="highlight">Hyderabad 🇮🇳</span></h3>
-                    <p class="about-bio">
-                        Hi! I'm <strong>Omprakash Thoparam</strong>, a Python Full Stack Developer who loves turning ideas into real-world digital products. I specialise in building clean, efficient backends with Python &amp; Django and pairing them with sleek, responsive frontends.
-                    </p>
-                    <p class="about-bio">
-                        When I'm not coding, you'll find me exploring new frameworks, contributing to open-source, or sharpening my problem-solving skills on competitive platforms.
-                    </p>
-
-                    <div class="about-stats">
-                        <div class="stat-card">
-                            <i class="fa-solid fa-laptop-code"></i>
-                            <h4>Full Stack</h4>
-                            <p>End-to-end web apps</p>
-                        </div>
-                        <div class="stat-card">
-                            <i class="fa-brands fa-python"></i>
-                            <h4>Python Expert</h4>
-                            <p>Django &amp; scripting</p>
-                        </div>
-                        <div class="stat-card">
-                            <i class="fa-solid fa-mobile-screen"></i>
-                            <h4>Responsive</h4>
-                            <p>Mobile-first design</p>
-                        </div>
-                        <div class="stat-card">
-                            <i class="fa-solid fa-rocket"></i>
-                            <h4>Fast Learner</h4>
-                            <p>Always exploring tech</p>
-                        </div>
-                    </div>
-
-                    <div class="about-actions">
-                        <a href="#contact" class="btn">Hire Me</a>
-                        <a href="#projects" class="btn btn-outline">View Projects</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- EDUCATION -->
-        <section class="education" id="education">
-            <h2 class="section-title">Education</h2>
-            <p class="section-sub">My academic journey</p>
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-year">2013 – 2017</span>
-                        <h3>Bachelor of Technology – Computer Science</h3>
-                        <p class="institution"><i class="fa-solid fa-school"></i> Telangana University, Nizamabad</p>
-                        <p>Focused on software engineering, data structures, algorithms, and full-stack web development. Graduated with Distinction.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-year">2011 – 2013</span>
-                        <h3>Intermediate (MPC) – 12th Grade</h3>
-                        <p class="institution"><i class="fa-solid fa-school"></i> Ushodaya Junior College, Bodhan</p>
-                        <p>Studied Mathematics, Physics, and Chemistry. Secured 70% in board examinations.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-year">2010 – 2011</span>
-                        <h3>SSC – 10th Grade</h3>
-                        <p class="institution"><i class="fa-solid fa-school"></i> Srinivasa High School, Bodhan</p>
-                        <p>Completed secondary education with a GPA of 8.8/10.</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- SKILLS -->
-        <section class="skills" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <p class="section-sub">Technologies I work with</p>
-
-            <div class="skills-grid">
-
-                <div class="skill-category">
-                    <h3><i class="fa-solid fa-code"></i> Frontend</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>HTML</span><span>90%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:90%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>CSS</span><span>80%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:80%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>JavaScript</span><span>75%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:75%"></div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fa-solid fa-server"></i> Backend</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>Python</span><span>90%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:90%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>Django</span><span>80%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:80%"></div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fa-solid fa-database"></i> Database</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>MySQL</span><span>80%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:80%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>MongoDB</span><span>65%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:65%"></div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fa-solid fa-tools"></i> Tools</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>Git &amp; GitHub</span><span>85%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:85%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>PyCharm</span><span>60%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:60%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <div class="skill-label"><span>VS Code</span><span>70%</span></div>
-                            <div class="bar"><div class="bar-fill" style="--pct:70%"></div></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- PROJECTS -->
-        <section class="projects" id="projects">
-            <h2 class="section-title">My Projects</h2>
-            <p class="section-sub">Things I've built with passion</p>
-
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
-                <button class="filter-btn" data-filter="backend">Backend</button>
-                <button class="filter-btn" data-filter="frontend">Frontend</button>
-            </div>
-
-            <div class="projects-grid">
-
-                <div class="project-card" data-category="fullstack">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fa-solid fa-cart-shopping"></i></div>
-                        <div class="project-links">
-                            <a href="#" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">E-Commerce Platform</h3>
-                    <p class="project-desc">A fully functional online store with product listings, cart management, secure payments, and an admin dashboard built with Django &amp; JavaScript.</p>
-                    <div class="project-tags">
-                        <span>Python</span><span>Django</span><span>JavaScript</span><span>MySQL</span>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="backend">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                        <div class="project-links">
-                            <a href="#" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">REST API – Auth System</h3>
-                    <p class="project-desc">A secure JWT-based authentication API with role-based access control, token refresh, and rate limiting built using Django REST Framework.</p>
-                    <div class="project-tags">
-                        <span>Django REST</span><span>JWT</span><span>Python</span><span>MySQL</span>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="fullstack">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fa-solid fa-list-check"></i></div>
-                        <div class="project-links">
-                            <a href="#" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">Task Management App</h3>
-                    <p class="project-desc">A productivity app with Kanban boards, team collaboration, deadline tracking, and real-time notifications using Django &amp; MongoDB.</p>
-                    <div class="project-tags">
-                        <span>Python</span><span>Django</span><span>JavaScript</span><span>MongoDB</span>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="frontend">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fa-solid fa-cloud-sun"></i></div>
-                        <div class="project-links">
-                            <a href="#" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">Weather Dashboard</h3>
-                    <p class="project-desc">A real-time weather app with city search, 7-day forecast, animated weather icons, and a beautiful responsive UI using OpenWeather API.</p>
-                    <div class="project-tags">
-                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="backend">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
-                        <div class="project-links">
-                            <a href="#" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">Data Analytics Pipeline</h3>
-                    <p class="project-desc">An automated ETL pipeline that scrapes, cleans, and visualises large datasets using Python and Pandas with scheduled cron jobs.</p>
-                    <div class="project-tags">
-                        <span>Python</span><span>Pandas</span><span>MySQL</span>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="frontend">
-                    <div class="project-top">
-                        <div class="project-icon"><i class="fa-solid fa-user-tie"></i></div>
-                        <div class="project-links">
-                            <a href="#" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="project-title">Portfolio Website</h3>
-                    <p class="project-desc">This very portfolio — a responsive, glassmorphism-styled personal site built with pure HTML, CSS &amp; JavaScript featuring smooth scroll and animations.</p>
-                    <div class="project-tags">
-                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- CONTACT -->
-        <section class="contact" id="contact">
-            <h2 class="section-title">Contact Me</h2>
-            <p class="section-sub">Let's build something great together</p>
-
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <div class="contact-card">
-                        <i class="fa-solid fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>omprakashom789@outlook.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fa-solid fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>+91 789 34 38 362</p>
-                        </div>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Hyderabad, Telangana, India</p>
-                        </div>
-                    </div>
-                    <div class="contact-socials">
-                        <a href="https://www.linkedin.com/in/omprakash-thoparam" target="_blank" rel="noopener" class="social-btn social-linkedin" aria-label="LinkedIn">
-                            <span class="social-icon-inner"><i class="fa-brands fa-linkedin-in"></i></span>
-                            <span class="social-tooltip">LinkedIn</span>
-                        </a>
-                        <a href="https://github.com/omprakash-thoparam" target="_blank" rel="noopener" class="social-btn social-github" aria-label="GitHub">
-                            <span class="social-icon-inner"><i class="fa-brands fa-github"></i></span>
-                            <span class="social-tooltip">GitHub</span>
-                        </a>
-                        <a href="https://www.instagram.com/omprakash_thoparam" target="_blank" rel="noopener" class="social-btn social-instagram" aria-label="Instagram">
-                            <span class="social-icon-inner"><i class="fa-brands fa-instagram"></i></span>
-                            <span class="social-tooltip">Instagram</span>
-                        </a>
-                        <a href="https://www.facebook.com/omprakash.thoparam" target="_blank" rel="noopener" class="social-btn social-facebook" aria-label="Facebook">
-                            <span class="social-icon-inner"><i class="fa-brands fa-facebook-f"></i></span>
-                            <span class="social-tooltip">Facebook</span>
-                        </a>
-                    </div>
-                </div>
-
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required />
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject" />
-                    </div>
-                    <div class="form-group">
-                        <textarea rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
-                </form>
-            </div>
-        </section>
-        
-
-        <footer class="footer">
-            <p>© 2026 Omprakash Thoparam. All rights reserved.</p>
-        </footer>
+  <!-- NAV -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <img src="avb-logo.jpg" alt="AVB Logo" class="logo-img" />
+        <span class="logo-text">Life Science Academy</span>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#training">Training</a>
+        <a href="#projects">Projects</a>
+        <a href="#corporate">Corporate</a>
+        <a href="#placement">Placement</a>
+        <a href="#contact" class="nav-cta">Contact Us</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-    
+  </header>
 
-    <script>
-        // Typewriter effect
-        const roles = ['Python Full Stack Developer', 'Django Expert', 'UI/UX Enthusiast', 'Problem Solver'];
-        let roleIdx = 0, charIdx = 0, deleting = false;
-        const tw = document.getElementById('typewriter');
-        function typeWrite() {
-            const current = roles[roleIdx];
-            if (deleting) {
-                tw.textContent = current.substring(0, charIdx--);
-                if (charIdx < 0) { deleting = false; roleIdx = (roleIdx + 1) % roles.length; setTimeout(typeWrite, 400); return; }
-            } else {
-                tw.textContent = current.substring(0, charIdx++);
-                if (charIdx > current.length) { deleting = true; setTimeout(typeWrite, 1800); return; }
-            }
-            setTimeout(typeWrite, deleting ? 50 : 90);
-        }
-        typeWrite();
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Premier Industry-Oriented Training</p>
+      <h1 class="hero-title">Bridging the Gap Between<br /><em>Industry &amp; Institute</em></h1>
+      <p class="hero-sub">AVB Life Science Academy empowers pharmacy and life science students and professionals with real-world skills, certifications, and career opportunities.</p>
+      <div class="hero-actions">
+        <a href="#services" class="btn-primary">Explore Programs</a>
+        <a href="#contact" class="btn-ghost">Get in Touch →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><span class="hstat-num">200+</span><span class="hstat-label">Students Trained</span></div>
+        <div class="hstat-divider"></div>
+        <div class="hstat"><span class="hstat-num">200+</span><span class="hstat-label">Corporate Professionals</span></div>
+        <div class="hstat-divider"></div>
+        <div class="hstat"><span class="hstat-num">5+</span><span class="hstat-label">Services Offered</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card-float hc1">
+        <div class="hc-icon">🔬</div>
+        <div class="hc-text">QC &amp; QA Training</div>
+      </div>
+      <div class="hero-card-float hc2">
+        <div class="hc-icon">🎓</div>
+        <div class="hc-text">Live Projects</div>
+      </div>
+      <div class="hero-card-float hc3">
+        <div class="hc-icon">💼</div>
+        <div class="hc-text">Job Placement</div>
+      </div>
+      <div class="hero-circle"></div>
+    </div>
+  </section>
 
-        // Active nav on scroll
-        const sections = document.querySelectorAll('section[id]');
-        const navLinks = document.querySelectorAll('.navbar a');
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(sec => {
-                if (window.scrollY >= sec.offsetTop - 120) current = sec.getAttribute('id');
-            });
-            navLinks.forEach(a => {
-                a.classList.remove('active');
-                if (a.getAttribute('href') === '#' + current) a.classList.add('active');
-            });
-        }, { passive: true });
+  <!-- ABOUT -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-label">Who We Are</div>
+      <h2 class="section-title">A Premier Training Academy<br />for Life Science Professionals</h2>
+      <p class="section-sub">AVB Life Science Academy is a premier industry-oriented training organization dedicated to life science students and professionals. We focus on bridging the gap between academic learning and real-time industry requirements.</p>
+      <div class="about-grid">
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Delivered large-scale virtual training to <strong>200+ pharmacy students</strong> and professionals using immersive, tech-enabled sessions.</p>
+        </div>
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Conducted high-impact <strong>VR-based training programs</strong> for 200+ employees at reputed pharma companies in Hyderabad.</p>
+        </div>
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Organized multiple <strong>on-campus and off-campus job drives</strong> connecting trained candidates with various pharmaceutical companies.</p>
+        </div>
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Facilitated <strong>direct selections and offer letters</strong> through transparent, structured recruitment support for freshers and experienced candidates.</p>
+        </div>
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Provided intensive classroom trainings on <strong>GMP, QC, QA, documentation, and interview skills</strong> for life science graduates.</p>
+        </div>
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Designed <strong>customized training modules and internships</strong> for colleges, industries, and corporate clients in both online and offline modes.</p>
+        </div>
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Supported <strong>M.Pharm, B.Pharm, and M.Sc students</strong> with live projects, plagiarism checks, and publication assistance.</p>
+        </div>
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Offered <strong>government-linked and corporate skill-development programs</strong> with a focus on employability and industry compliance.</p>
+        </div>
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Shared regular <strong>pharma job updates, resume support,</strong> and profile recommendations to help candidates secure the right roles.</p>
+        </div>
+        <div class="about-item reveal">
+          <div class="about-dot"></div>
+          <p>Positioned AVB Life Science Academy as a <strong>single platform</strong> for training, internships, corporate programs, and recruitment services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        // Project filter
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const projectCards = document.querySelectorAll('.project-card');
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                const filter = btn.dataset.filter;
-                projectCards.forEach(card => {
-                    const match = filter === 'all' || card.dataset.category === filter;
-                    card.style.transition = 'opacity 0.3s, transform 0.3s';
-                    if (match) {
-                        card.style.display = 'flex';
-                        setTimeout(() => { card.style.opacity = '1'; card.style.transform = 'translateY(0)'; }, 10);
-                    } else {
-                        card.style.opacity = '0';
-                        card.style.transform = 'translateY(10px)';
-                        setTimeout(() => { card.style.display = 'none'; }, 300);
-                    }
-                });
-            });
-        });
-    </script>
+  <!-- SERVICES -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-label">Our Services</div>
+      <h2 class="section-title">Everything You Need,<br />Under One Roof</h2>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="sc-num">01</div>
+          <div class="sc-icon">📁</div>
+          <h3>Industry-Oriented Projects</h3>
+          <p>Live projects, plagiarism checks, HPLC guidance, and university-approved project support for B.Sc, M.Sc, B.Pharm &amp; M.Pharm students.</p>
+          <a href="#projects" class="sc-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="sc-num">02</div>
+          <div class="sc-icon">🏫</div>
+          <h3>Training Programs</h3>
+          <p>QC, QA, GMP, Regulatory Affairs — online and offline programs designed to meet current pharma industry requirements.</p>
+          <a href="#training" class="sc-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="sc-num">03</div>
+          <div class="sc-icon">🧪</div>
+          <h3>Internships</h3>
+          <p>Hands-on industrial training programmes with real-time pharmaceutical industry operations, including industry visits.</p>
+          <a href="#placement" class="sc-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="sc-num">04</div>
+          <div class="sc-icon">🤝</div>
+          <h3>Recruitment Services</h3>
+          <p>Exclusive job drives, transparent placements, and direct offer letters for freshers and experienced professionals.</p>
+          <a href="#placement" class="sc-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="sc-num">05</div>
+          <div class="sc-icon">🏢</div>
+          <h3>Corporate Services</h3>
+          <p>Government-sponsored skill development, NAPS/NATS support, CSR programs, and customized corporate training modules.</p>
+          <a href="#corporate" class="sc-link">Learn more →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAINING -->
+  <section class="section training-section" id="training">
+    <div class="container">
+      <div class="section-label">Training Programs</div>
+      <h2 class="section-title">Industry-Standard Courses<br /><em>Online &amp; Offline</em></h2>
+      <div class="training-layout">
+        <div class="training-info">
+          <p class="training-intro">We provide industry-oriented pharmaceutical courses designed to meet current pharma industry requirements. Virtual &amp; on-campus corporate training with smart classroom teaching.</p>
+          <div class="training-modes">
+            <span class="mode-badge">Online</span>
+            <span class="mode-badge">Offline</span>
+            <span class="mode-badge">Corporate On-Site</span>
+          </div>
+          <div class="training-courses">
+            <div class="tc-item reveal">
+              <div class="tc-pill qc">QC</div>
+              <div>
+                <strong>Quality Control</strong>
+                <p>HPLC, UV, Dissolution, Wet Lab and more analytical techniques</p>
+              </div>
+            </div>
+            <div class="tc-item reveal">
+              <div class="tc-pill qa">QA</div>
+              <div>
+                <strong>Quality Assurance</strong>
+                <p>GMP, SOPs, Deviations, CAPA, Audits &amp; compliance management</p>
+              </div>
+            </div>
+            <div class="tc-item reveal">
+              <div class="tc-pill ra">RA</div>
+              <div>
+                <strong>Regulatory Affairs</strong>
+                <p>Dossiers, CTD, ANDA basics &amp; regulatory submission guidance</p>
+              </div>
+            </div>
+            <div class="tc-item reveal">
+              <div class="tc-pill gmp">GMP</div>
+              <div>
+                <strong>GMP Compliance</strong>
+                <p>Pharmaceutical GMP standards, documentation &amp; implementation</p>
+              </div>
+            </div>
+            <div class="tc-item reveal">
+              <div class="tc-pill iv">IV</div>
+              <div>
+                <strong>Interview Preparation</strong>
+                <p>Mock interviews, resume building, and job assistance support</p>
+              </div>
+            </div>
+          </div>
+          <!-- Training Photo Gallery -->
+          <div class="training-gallery">
+            <img src="vr-training.jpg" alt="VR-based corporate training session" class="tgal-img reveal" />
+            <img src="classroom.jpg" alt="Smart classroom teaching" class="tgal-img reveal" />
+          </div>
+        </div>
+        <div class="training-highlight reveal">
+          <div class="th-badge">Successfully Delivered</div>
+          <div class="th-num">200+</div>
+          <div class="th-text">Pharmaceutical Professionals Trained Through Large-Scale Virtual Programs</div>
+          <div class="th-divider"></div>
+          <ul class="th-list">
+            <li>Smart Classroom Teaching</li>
+            <li>Virtual &amp; On-Campus Delivery</li>
+            <li>Certified Instructors</li>
+            <li>Practical Hands-On Sessions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-label">Project Works</div>
+      <h2 class="section-title">Industry-Oriented<br />Project Guidance</h2>
+      <div class="projects-grid">
+        <div class="proj-card reveal">
+          <div class="proj-icon">🔬</div>
+          <h3>Live Projects</h3>
+          <p>Real industry projects for B.Sc, M.Sc, B.Pharm &amp; M.Pharm students with hands-on laboratory experience.</p>
+        </div>
+        <div class="proj-card reveal">
+          <div class="proj-icon">📄</div>
+          <h3>Plagiarism Support</h3>
+          <p>Thorough plagiarism check and detailed report support to ensure your project meets university standards.</p>
+        </div>
+        <div class="proj-card reveal">
+          <div class="proj-icon">✅</div>
+          <h3>University Approved</h3>
+          <p>Industry-oriented and university-approved project guidance ensuring academic and professional relevance.</p>
+        </div>
+        <div class="proj-card reveal">
+          <div class="proj-icon">📊</div>
+          <h3>HPLC &amp; Analytics</h3>
+          <p>Projects in HPLC, Analytical Techniques, and job-oriented modules aligned with pharma industry needs.</p>
+        </div>
+        <div class="proj-card reveal">
+          <div class="proj-icon">📰</div>
+          <h3>Publication Assistance</h3>
+          <p>Support for M.Pharm and M.Sc students to publish research in peer-reviewed journals.</p>
+        </div>
+        <div class="proj-card reveal">
+          <div class="proj-icon">🎯</div>
+          <h3>Job-Oriented Modules</h3>
+          <p>Specially designed modules that align your academic project with real pharma industry job requirements.</p>
+        </div>
+      </div>
+      <!-- Projects Photo Gallery -->
+      <div class="projects-gallery">
+        <div class="pgal-item reveal">
+          <img src="lab-student.png" alt="Student working in pharmaceutical lab" class="pgal-img" />
+          <div class="pgal-caption">Hands-On Lab Training</div>
+        </div>
+        <div class="pgal-item reveal">
+          <img src="hplc-student.jpg" alt="Student operating HPLC equipment" class="pgal-img" />
+          <div class="pgal-caption">HPLC Equipment Training</div>
+        </div>
+        <div class="pgal-item reveal">
+          <img src="hplc-machine.jpg" alt="Waters Alliance HPLC machine" class="pgal-img" />
+          <div class="pgal-caption">Industry-Grade HPLC Equipment</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section corporate-section" id="corporate">
+    <div class="container">
+      <div class="section-label">Corporate Services</div>
+      <h2 class="section-title">Empowering Organizations<br />Through Skill Development</h2>
+      <div class="corporate-grid">
+        <div class="corp-item reveal">
+          <div class="corp-icon">🏛️</div>
+          <h4>Government-Sponsored Programs</h4>
+          <p>Skill development programs backed by government initiatives focused on employability and industry compliance.</p>
+        </div>
+        <div class="corp-item reveal">
+          <div class="corp-icon">📋</div>
+          <h4>Corporate Training Modules</h4>
+          <p>Customized training modules tailored to your organization's specific requirements and workforce needs.</p>
+        </div>
+        <div class="corp-item reveal">
+          <div class="corp-icon">📑</div>
+          <h4>NAPS / NATS Support</h4>
+          <p>Complete NAPS and NATS compliance support along with statutory compliance management services.</p>
+        </div>
+        <div class="corp-item reveal">
+          <div class="corp-icon">❤️</div>
+          <h4>CSR Skill Development</h4>
+          <p>CSR-linked skill development programs that create social value while building industry-ready talent.</p>
+        </div>
+        <div class="corp-item reveal">
+          <div class="corp-icon">🎓</div>
+          <h4>Training &amp; Placement</h4>
+          <p>End-to-end training and placement services connecting skilled candidates directly to pharma companies.</p>
+        </div>
+        <div class="corp-item reveal">
+          <div class="corp-icon">🌐</div>
+          <h4>Online &amp; Offline Delivery</h4>
+          <p>Flexible delivery modes for colleges, industries, and corporate clients — wherever and however you need it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLACEMENT -->
+  <section class="section placement-section" id="placement">
+    <div class="container">
+      <div class="section-label">Job Drives &amp; Placement</div>
+      <h2 class="section-title">Your Career,<br /><em>Our Mission</em></h2>
+      <div class="placement-layout">
+        <div class="placement-text">
+          <p>We organize exclusive job drives and internship programs connecting talented candidates with top companies. Our recruitment team ensures the right match between skills and industry needs.</p>
+          <p>Multiple companies participate, offering diverse career and internship opportunities. Students gain direct access to employers through our placement and internship support.</p>
+          <p>We make the hiring process <strong>simple, transparent, and career-focused.</strong></p>
+          <div class="placement-features">
+            <div class="pf-item reveal">
+              <span class="pf-check">✓</span>
+              <span>On-campus &amp; off-campus job drives</span>
+            </div>
+            <div class="pf-item reveal">
+              <span class="pf-check">✓</span>
+              <span>Direct offer letters &amp; selections</span>
+            </div>
+            <div class="pf-item reveal">
+              <span class="pf-check">✓</span>
+              <span>Resume support &amp; profile recommendations</span>
+            </div>
+            <div class="pf-item reveal">
+              <span class="pf-check">✓</span>
+              <span>Regular pharma job updates</span>
+            </div>
+            <div class="pf-item reveal">
+              <span class="pf-check">✓</span>
+              <span>Support for freshers &amp; experienced candidates</span>
+            </div>
+            <div class="pf-item reveal">
+              <span class="pf-check">✓</span>
+              <span>Industrial training with industry visits</span>
+            </div>
+          </div>
+        </div>
+        <div class="placement-stats">
+          <div class="ps-card reveal">
+            <div class="ps-num">200+</div>
+            <div class="ps-label">Students Placed</div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-num">50+</div>
+            <div class="ps-label">Partner Companies</div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-num">100%</div>
+            <div class="ps-label">Transparent Process</div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-num">∞</div>
+            <div class="ps-label">Career Opportunities</div>
+          </div>
+        </div>
+      </div>
+      <!-- Placement Photo Gallery -->
+      <div class="placement-gallery">
+        <div class="plgal-item reveal">
+          <img src="job-drive1.jpg" alt="Students holding offer letters at job drive" class="plgal-img" />
+          <div class="plgal-caption">Job Drive — Offer Letters Distributed</div>
+        </div>
+        <div class="plgal-item reveal">
+          <img src="job-drive2.jpg" alt="Successful placement selections" class="plgal-img" />
+          <div class="plgal-caption">Direct Selections & Placements</div>
+        </div>
+        <div class="plgal-item reveal">
+          <img src="industry-visit.jpg" alt="Students on industry visit at pharma company" class="plgal-img" />
+          <div class="plgal-caption">Industry Visit — Real-World Exposure</div>
+        </div>
+        <div class="plgal-item reveal">
+          <img src="industrial-group.png" alt="Industrial training program group photo" class="plgal-img" />
+          <div class="plgal-caption">Industrial Training Programme</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Start Your Journey<br /><em>With AVB Today</em></h2>
+      <div class="contact-layout">
+        <div class="contact-info">
+          <div class="ci-item">
+            <div class="ci-icon">📞</div>
+            <div>
+              <div class="ci-label">Phone</div>
+              <a href="tel:8099019595" class="ci-value">8099 019 595</a>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon">✉️</div>
+            <div>
+              <div class="ci-label">Email</div>
+              <a href="mailto:avblifescience@gmail.com" class="ci-value">avblifescience@gmail.com</a>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon">🌐</div>
+            <div>
+              <div class="ci-label">Website</div>
+              <a href="https://www.avblifescienceacademy.in" target="_blank" class="ci-value">www.avblifescienceacademy.in</a>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon">📍</div>
+            <div>
+              <div class="ci-label">Address</div>
+              <div class="ci-value">3rd Floor, H No 1-77/1, Bachupally X Road,<br />Towards NIZAMPET Road, DTDC Couriers Point,<br />Hyderabad, Telangana 500118</div>
+            </div>
+          </div>
+          <div class="social-row">
+            <a href="https://facebook.com/avblifescienceacademy" target="_blank" class="soc-btn">Facebook</a>
+            <a href="https://instagram.com/avblifescienceacademy" target="_blank" class="soc-btn">Instagram</a>
+            <a href="https://youtube.com/avblifescienceacademy" target="_blank" class="soc-btn">YouTube</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" />
+          </div>
+          <div class="form-group">
+            <label for="interest">Area of Interest</label>
+            <select id="interest">
+              <option value="">Select a program...</option>
+              <option>QC Training</option>
+              <option>QA Training</option>
+              <option>Regulatory Affairs</option>
+              <option>GMP Compliance</option>
+              <option>Industry Projects</option>
+              <option>Internship</option>
+              <option>Placement Support</option>
+              <option>Corporate Services</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Tell us about yourself and what you're looking for..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit">Send Enquiry</button>
+          <div class="form-success" id="formSuccess">✓ Thank you! We'll get back to you shortly.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <img src="avb-logo.jpg" alt="AVB Logo" class="logo-img" />
+            <span class="logo-text" style="color:#E8C97A">Life Science Academy</span>
+          </div>
+          <p>Bridging the gap between industry and institute — one student at a time.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#about">About Us</a>
+          <a href="#services">Our Services</a>
+          <a href="#training">Training Programs</a>
+          <a href="#projects">Project Works</a>
+          <a href="#placement">Placement</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Programs</h4>
+          <a href="#training">QC Training</a>
+          <a href="#training">QA Training</a>
+          <a href="#training">Regulatory Affairs</a>
+          <a href="#training">GMP Compliance</a>
+          <a href="#projects">Live Projects</a>
+          <a href="#corporate">Corporate Services</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>📞 8099 019 595</p>
+          <p>✉️ avblifescience@gmail.com</p>
+          <p>🌐 www.avblifescienceacademy.in</p>
+          <p>📍 Bachupally, Hyderabad – 500118</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 AVB Life Science Academy. All rights reserved.</p>
+        <p>Designed with ❤️ for life science excellence</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
